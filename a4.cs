@@ -20,6 +20,9 @@ namespace a4
     [TestFixture]
     public class DefaultSuiteTest
     {
+
+
+        
         private IWebDriver driver;
         public IDictionary<string, object> vars { get; private set; }
         private IJavaScriptExecutor js;
